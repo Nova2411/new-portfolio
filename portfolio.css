@@ -1,0 +1,307 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    /* background-color: rgb(31, 31, 32); */
+    /* background: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+}
+
+html {
+    background: linear-gradient(to right, #101921 0%, #104169 100%);
+    margin: 0;
+    scroll-behavior:smooth;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 21px 25px;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    border: 0;
+
+}
+
+.logo {
+    letter-spacing: 3px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.logo .change {
+    color: aqua;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.logo .change:hover {
+    color: rgb(239, 80, 22);
+    transition: 0.5s ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    transition: 0.5s ;
+}
+
+.btn{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: aqua;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: color 1s ease-in-out, box-shadow 0.5s ease-in-out, transform .5s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: inset 120px 0 0 0 #54b3d6;
+    color: white;
+    transition: 1s;
+}
+
+.action_btn {
+    color: aqua;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border-color: aqua;
+    background-color: transparent;
+}
+
+.action_btn:hover {
+    transform: scale(1.2);
+    color: whitesmoke;
+    background-color: #54b3d6;
+}
+
+/* .everything {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.content {
+    position: absolute;
+    color: whitesmoke;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 54px;
+    color: aqua;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.content h4 {
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+
+/* .profile {
+    display: inline-block;
+    justify-content: space-between;
+} */
+
+.profile_pic {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    transform: translate(185% , 10%);
+}
+
+.profile_pic img {
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.profile_pic img:hover {
+    transform: scale(1.1);
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_containers {
+    flex: 1;
+}
+
+.about_me {
+    padding-left: 10%;
+    width: 50%;
+    color: whitesmoke;    
+}
+
+.about_details {
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: rgb(209, 208, 208);
+    text-align: center;
+}
+
+.me {
+    color: aqua;
+}
+
+.about_me h2 {
+    line-height: 5px;
+    font-size: 50px;
+}
+.about_me p {
+    
+    font-weight: 200;
+}
+
+.text {
+    color: whitesmoke;
+    width: 100%;
+    height: 200px;
+    top: 50%;
+    text-align: center;
+    transform: translateY(20%);
+}
+
+.boxes {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info {   
+    padding: 1.5rem;
+    flex: 0.5;
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: rgb(209, 208, 208);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.edu {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#education h2 {
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+}
+
+#contact {
+    height: 70vh;
+}
+
+#contact h2{
+    font-size: 50px;
+    line-height: 5px;
+}
+
+#contact h2,p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+.contact-info-upper-container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    border: solid;
+    border-width: 2px;
+    border-radius: 2rem;
+    border-color: whitesmoke; 
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    transform: translate(35% , 35%);
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.email-icon,
+.contact-icon {
+    height: 2.5rem;
+}
+
+.contact-info-container p a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li a {
+    font-size: 1.5rem;
+}
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+  
+footer p {
+    text-align: center;
+}
